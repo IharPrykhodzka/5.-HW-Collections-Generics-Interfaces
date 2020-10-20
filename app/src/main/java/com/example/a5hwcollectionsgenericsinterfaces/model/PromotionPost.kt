@@ -3,7 +3,7 @@ package com.example.a5hwcollectionsgenericsinterfaces.model
 data class PromotionPost(
     val id: Int,
     val icon: Int,
-    val dateForPost: Long,
+    val dateForPost: String,
     val author: String,
     val content: String,
     val link: String,

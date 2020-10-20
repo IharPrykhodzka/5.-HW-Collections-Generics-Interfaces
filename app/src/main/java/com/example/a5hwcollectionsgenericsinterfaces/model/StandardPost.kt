@@ -3,7 +3,7 @@ package com.example.a5hwcollectionsgenericsinterfaces.model
 data class StandardPost(
     val id: Int,
     val icon: Int,
-    val dateForPost: Long,
+    val dateForPost: String,
     val author: String,
     val content: String,
     var likedByMe: Boolean = false,
